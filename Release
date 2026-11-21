@@ -1,0 +1,27 @@
+Origin: AWS
+Label: AWS
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: سورس أداة أوس لإنستقرام
+Date: Sat, 21 Nov 2026 12:58:42 UTC
+MD5Sum:
+ 742dabe8b4f82703171e005e7194bfb3 2300 Packages
+ 6afb8bccb3c5c9fd61889aa4c27d9699 725 Packages.gz
+ 7d18d50bae5e98b6af235c9d3ba2d086 902 Packages.bz2
+ 0701862854caad078ae36e7cbb285668 756 Packages.xz
+ 23a5b724005ae1faff08ecfd0815881c 714 Packages.zst
+SHA1:
+ d7b4e22b22860792aedd95711d2f8739e4ec1402 2300 Packages
+ 93f968898de04ec5e28c0b1cc99921e20ecbb9d6 725 Packages.gz
+ cfb12fdfa827ddf6b06cbc03383a62ab339370f4 902 Packages.bz2
+ bb8663095b42833f9d9b7fd39d60afed975f549a 756 Packages.xz
+ 5bbcddff7371ef07d7596edaa4c324804dc6a73e 714 Packages.zst
+SHA256:
+ a19dfb6354ad2f6d35646bec97a3284b13d2befb5c2bf2e597fe626d3c0e0f01 2300 Packages
+ 0adc7107dc932fd7a433907250a2c3429113775df2060a69d5e7294fbd7bc946 725 Packages.gz
+ 037f926dbb65de51fe08cb70632ef9e2ac0f60bd55541cf615d43e27fa3919e3 902 Packages.bz2
+ 14344aab07067bd74707d589e93a10244fe8735dfdc8518b345ca8dec72aaa58 756 Packages.xz
+ e96b7ac8e13126f00e83ad8ca3c0d2b374b8afd5a30094872a3c60404af5fef1 714 Packages.zst

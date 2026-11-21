@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>سورس أوس</title>
+<meta name="description" content="سورس أداة أوس لإنستقرام: أضفه في Sileo أو Zebra وتوصلك التحديثات تلقائياً.">
+<link rel="icon" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F4F5F7; --card:#FFFFFF; --ink:#0D1014; --ink-2:#565C66; --line:rgba(13,16,20,.09);
+  --eye:#1FA3C4; --eye-ink:#0B5F74; --eye-wash:rgba(31,163,196,.10);
+}
+@media (prefers-color-scheme:dark){
+  :root{ --paper:#0B0D10; --card:#14171C; --ink:#EEF1F4; --ink-2:#9AA2AD; --line:rgba(238,241,244,.10);
+         --eye:#3CC6E8; --eye-ink:#8FE3F7; --eye-wash:rgba(60,198,232,.12); }
+}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font:400 16px/1.7 "IBM Plex Sans Arabic",system-ui,-apple-system,sans-serif;
+  padding:max(28px,env(safe-area-inset-top)) 16px max(40px,env(safe-area-inset-bottom))}
+main{max-width:520px;margin:0 auto}
+.hero{display:flex;flex-direction:column;align-items:center;text-align:center;padding:12px 0 28px}
+.hero img{width:104px;height:104px;border-radius:24px;box-shadow:0 1px 0 var(--line),0 12px 32px -14px rgba(0,0,0,.35)}
+h1{font-size:40px;line-height:1.15;font-weight:700;letter-spacing:-.01em;margin-top:18px}
+.lead{color:var(--ink-2);margin-top:6px;max-width:30ch}
+.ver{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-size:13px;font-weight:500;color:var(--eye-ink);
+  background:var(--eye-wash);padding:4px 12px;border-radius:999px}
+.ver i{width:6px;height:6px;border-radius:50%;background:var(--eye)}
+.add{display:grid;gap:10px}
+.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 18px;border-radius:14px;
+  text-decoration:none;font-weight:500;font-size:17px;transition:transform .12s ease}
+.btn:active{transform:scale(.985)}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn.secondary{background:var(--card);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.btn svg{width:20px;height:20px;flex:none;transform:scaleX(-1)}
+.url{margin-top:14px;display:flex;align-items:center;gap:8px;background:var(--card);border-radius:14px;padding:6px 6px 6px 14px;
+  box-shadow:inset 0 0 0 1px var(--line)}
+.url code{flex:1;min-width:0;direction:ltr;text-align:left;font:500 14px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+  color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-left:6px}
+.url button{border:0;background:var(--eye-wash);color:var(--eye-ink);font:500 14px "IBM Plex Sans Arabic",sans-serif;
+  padding:9px 14px;border-radius:10px;cursor:pointer}
+.hint{font-size:13px;color:var(--ink-2);margin-top:10px;text-align:center}
+section{margin-top:40px}
+h2{font-size:13px;font-weight:500;color:var(--ink-2);margin-bottom:12px;letter-spacing:.02em}
+.feats{list-style:none;padding:0;background:var(--card);border-radius:16px;box-shadow:inset 0 0 0 1px var(--line)}
+.feats li{display:flex;gap:12px;align-items:baseline;padding:13px 18px}
+.feats li+li{border-top:1px solid var(--line)}
+.feats b{font-weight:500}
+.feats span{color:var(--ink-2);font-size:14px}
+.log{display:grid;gap:0}
+.entry{display:grid;grid-template-columns:72px 1fr;gap:4px 16px;padding:14px 0;border-top:1px solid var(--line)}
+.entry:first-child{border-top:0;padding-top:0}
+.entry .v{font:500 15px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;direction:ltr;text-align:right}
+.entry .d{grid-column:1;font-size:12px;color:var(--ink-2);direction:ltr;text-align:right}
+.entry ul{grid-column:2;grid-row:1/span 2;padding:0;list-style:none;display:grid;gap:4px}
+.entry li{font-size:15px}
+.entry:first-child .v{color:var(--eye-ink)}
+footer{margin-top:44px;text-align:center;font-size:13px;color:var(--ink-2)}
+.toast{position:fixed;inset-inline:0;bottom:max(24px,env(safe-area-inset-bottom));margin:auto;width:max-content;
+  background:var(--ink);color:var(--paper);font-size:14px;padding:8px 16px;border-radius:999px;opacity:0;transform:translateY(8px);
+  transition:.2s ease;pointer-events:none}
+.toast.on{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <img src="assets/icon.png" alt="شعار أوس">
+    <h1>أوس</h1>
+    <p class="lead">أداة لإنستقرام للتنزيل والخصوصية. أضف السورس مرة وحدة، وكل تحديث يوصلك من متجر الجلبريك.</p>
+    <span class="ver" id="ver"><i></i>آخر نسخة <span id="vnum">4.6.7</span></span>
+  </header>
+
+  <div class="add">
+    <a class="btn primary" id="sileo" href="#">أضف إلى Sileo
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4l6 6-6 6"/></svg></a>
+    <a class="btn secondary" id="zebra" href="#">أضف إلى Zebra
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4l6 6-6 6"/></svg></a>
+  </div>
+  <div class="url"><code id="url"></code><button type="button" id="copy">نسخ</button></div>
+  <p class="hint">في Sileo: المصادر ثم + والصق الرابط.</p>
+
+  <section>
+    <h2>وش فيها</h2>
+    <ul class="feats">
+      <li><b>التنزيل</b><span>صور، فيديو، قصص وريلز</span></li>
+      <li><b>الخصوصية</b><span>شاهد القصص بدون ما يدري صاحبها</span></li>
+      <li><b>بدون إعلانات</b><span>في الخلاصة والقصص والريلز</span></li>
+      <li><b>سرعة الريلز</b><span>زر 1x و2x جنب الإعجاب</span></li>
+      <li><b>قفل التطبيق</b><span>ببصمة الوجه</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>آخر التحديثات</h2>
+    <div class="log" id="log"></div>
+  </section>
+
+  <footer>الإعدادات من زر الذيب في صفحة ملفك الشخصي</footer>
+</main>
+<div class="toast" id="toast" role="status">انتسخ الرابط</div>
+<script>
+const base = location.href.replace(/[#?].*$/, "").replace(/index\.html$/, "");
+const url = base.endsWith("/") ? base : base + "/";
+document.getElementById("url").textContent = url;
+document.getElementById("sileo").href = "sileo://source/" + url;
+document.getElementById("zebra").href = "zbra://sources/add/" + url;
+const toast = document.getElementById("toast");
+document.getElementById("copy").addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText(url); toast.textContent = "انتسخ الرابط"; }
+  catch (e) { toast.textContent = "ما قدرت أنسخ، انسخه يدوي"; }
+  toast.classList.add("on"); setTimeout(() => toast.classList.remove("on"), 1600);
+});
+fetch("depiction/data.json", {cache: "no-store"}).then(r => r.json()).then(d => {
+  document.getElementById("vnum").textContent = d.version;
+  const log = document.getElementById("log");
+  log.replaceChildren(...d.changelog.slice(0, 6).map(e => {
+    const el = document.createElement("div"); el.className = "entry";
+    const v = document.createElement("div"); v.className = "v"; v.textContent = e.version;
+    const dt = document.createElement("div"); dt.className = "d"; dt.textContent = e.date;
+    const ul = document.createElement("ul");
+    e.notes.forEach(n => { const li = document.createElement("li"); li.textContent = n; ul.append(li); });
+    el.append(v, ul, dt); return el;
+  }));
+}).catch(() => {});
+</script>
+</body>
+</html>

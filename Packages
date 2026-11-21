@@ -111,3 +111,60 @@ Size: 222772
 MD5sum: 31ccc75807b6c9ea83b1617a6fae874a
 SHA1: 14ce872b83beb2fdc18a6fa002aa75ec1532f88c
 SHA256: 853c6a41979947bafde6024b4a728636c5b5b14836956630fba1561de86428b4
+
+Package: com.ziyad.instaz
+Name: AWS
+Version: 4.6.9
+Architecture: iphoneos-arm
+Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+Depiction: https://vip1z.github.io/aws-repo/depiction/
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.instaz_4.6.9_iphoneos-arm-rootful.deb
+Size: 226036
+MD5sum: 0563df75409fa560094ff64e8bb1b4c9
+SHA1: 73bd1ee66722340f2918b04bcabc686c2e3bf74f
+SHA256: 6f829dd3fca39d7eb0ef43c07915799d4410d6b2f59533a8d5a9db334d984ce3
+
+Package: com.ziyad.instaz
+Name: AWS
+Version: 4.6.9
+Architecture: iphoneos-arm64
+Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+Depiction: https://vip1z.github.io/aws-repo/depiction/
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.instaz_4.6.9_iphoneos-arm64-rootless.deb
+Size: 225900
+MD5sum: 9f89f6ec308f96ee98cb14ce0a514624
+SHA1: 9716e779a6e1bbf59a90f6309cf5b1d01ffbc69d
+SHA256: c8c7850c086f85f0f11613d1606089e9ea7b21ae033df600817b8509319c8f6d
+
+Package: com.ziyad.instaz
+Name: AWS
+Version: 4.6.9
+Architecture: iphoneos-arm64e
+Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+Depiction: https://vip1z.github.io/aws-repo/depiction/
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.instaz_4.6.9_iphoneos-arm64e-roothide.deb
+Size: 226044
+MD5sum: 5058ea27098f0f0433283efef21ec5f9
+SHA1: 3a4f07def5f9e47b01b932be2f7379bd0f7a14ad
+SHA256: fdf4106f4b10b25759b2e553a5c42f156e3eee4d88984705be0d048383648145

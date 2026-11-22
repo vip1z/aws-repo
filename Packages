@@ -1,62 +1,5 @@
 Package: com.ziyad.instaz
 Name: AWS
-Version: 4.18.3
-Architecture: iphoneos-arm
-Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
-Maintainer: Ziyad
-Author: Ziyad
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Icon: https://vip1z.github.io/aws-repo/assets/icon.png
-Depiction: https://vip1z.github.io/aws-repo/depiction/
-SileoDepiction: https://vip1z.github.io/aws-repo/depiction/sileo.json
-Header: https://vip1z.github.io/aws-repo/assets/header.png
-Filename: ./debs/com.ziyad.instaz_4.18.3_iphoneos-arm-rootful.deb
-Size: 296284
-MD5sum: 432b3de41571cfc9dd1911670b0b72c5
-SHA1: e6cdd1abe9249d4d05c32081a8108a7350e06547
-SHA256: a847b5c8ef8e4f06b0e8be6336c44743d43be57d3c76dda188b52785304d2124
-
-Package: com.ziyad.instaz
-Name: AWS
-Version: 4.18.3
-Architecture: iphoneos-arm64
-Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
-Maintainer: Ziyad
-Author: Ziyad
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Icon: https://vip1z.github.io/aws-repo/assets/icon.png
-Depiction: https://vip1z.github.io/aws-repo/depiction/
-SileoDepiction: https://vip1z.github.io/aws-repo/depiction/sileo.json
-Header: https://vip1z.github.io/aws-repo/assets/header.png
-Filename: ./debs/com.ziyad.instaz_4.18.3_iphoneos-arm64-rootless.deb
-Size: 297200
-MD5sum: 0bb83e7e7b40583f448f1604fcba45a5
-SHA1: 107a3415aa73eecbbb487541b0d2056b38c31173
-SHA256: d04dd0cf43247e0e73a93f5e1d2962350a9cc2f15f76700df133345f774e5a99
-
-Package: com.ziyad.instaz
-Name: AWS
-Version: 4.18.3
-Architecture: iphoneos-arm64e
-Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
-Maintainer: Ziyad
-Author: Ziyad
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Icon: https://vip1z.github.io/aws-repo/assets/icon.png
-Depiction: https://vip1z.github.io/aws-repo/depiction/
-SileoDepiction: https://vip1z.github.io/aws-repo/depiction/sileo.json
-Header: https://vip1z.github.io/aws-repo/assets/header.png
-Filename: ./debs/com.ziyad.instaz_4.18.3_iphoneos-arm64e-roothide.deb
-Size: 296284
-MD5sum: 4466ce60ddbe840a14c010f4501c2171
-SHA1: 1045f56f5ce53cac14edb92be0113a5d705349cc
-SHA256: 7f54a015563ceb8fbb9bd8540cf33aeaa94250fe8020c3d718a64e3ce84f2b81
-
-Package: com.ziyad.instaz
-Name: AWS
 Version: 4.18.4
 Architecture: iphoneos-arm
 Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
@@ -168,3 +111,60 @@ Size: 301732
 MD5sum: fd13e20fbe5c630a4cff10820d572041
 SHA1: e7e70dddc0c5a54b90e8dc80514c61564d3a5085
 SHA256: e069cd277482913031d0b55187146cb73ddbf512c021a122d83113668c2d5cd9
+
+Package: com.ziyad.instaz
+Name: AWS
+Version: 4.19.0
+Architecture: iphoneos-arm
+Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+Depiction: https://vip1z.github.io/aws-repo/depiction/
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.instaz_4.19.0_iphoneos-arm-rootful.deb
+Size: 303180
+MD5sum: 526671284bd383becca2785dfecf2d92
+SHA1: bb0f1e1645259450ed7596a290139a60cd9483e0
+SHA256: 3a7945c432c3aab58853ad760fa83b00e632a9ca767972b50becbe31f862179a
+
+Package: com.ziyad.instaz
+Name: AWS
+Version: 4.19.0
+Architecture: iphoneos-arm64
+Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+Depiction: https://vip1z.github.io/aws-repo/depiction/
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.instaz_4.19.0_iphoneos-arm64-rootless.deb
+Size: 304264
+MD5sum: 92727c750f5c04507594194fb894f68e
+SHA1: 74b85ba73fdf862121e06b8138f07f3dd26ccab2
+SHA256: f0020bf27c70d87a57d09e4621be3649f92a1878678472053f73b48a33ef4f5e
+
+Package: com.ziyad.instaz
+Name: AWS
+Version: 4.19.0
+Architecture: iphoneos-arm64e
+Description: AWS (أوس) — Instagram downloads, privacy, cleanup and app lock. Wolf button on your profile opens the settings.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+Depiction: https://vip1z.github.io/aws-repo/depiction/
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.instaz_4.19.0_iphoneos-arm64e-roothide.deb
+Size: 303180
+MD5sum: 8681224b1befd5ce3d32f94a77ad0126
+SHA1: 5da002fe0f1eb145062f7782bebab1dd809526c0
+SHA256: 4f890375226e1d08962f71d05b31a97c9ef1b8d771f293079a290144b9e41df1

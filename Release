@@ -6,22 +6,22 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: سورس أداة أوس لإنستقرام
-Date: Sun, 22 Nov 2026 09:36:31 UTC
+Date: Sun, 22 Nov 2026 09:52:09 UTC
 MD5Sum:
- 2b07d344de495c6b7cb88210427279e0 7091 Packages
- 832b5961e8777519478060cee9d8153a 1365 Packages.gz
- af120ba232c2f45ecce1a8f90d4151fd 1634 Packages.bz2
- b9611033b61d6096568b8d8e2eef2123 1300 Packages.xz
- 4a6069ca1d2cefe7d0ce82e6f603c368 1283 Packages.zst
+ ea2d2f0c61e42729067a11314a4ac41d 7085 Packages
+ 197c4e2ba29c0a38bbfd8cb026e4726d 1378 Packages.gz
+ ee8486df65edd94fed0caa001e6f7750 1627 Packages.bz2
+ 0e3dc6095d59fa6ff7785b2dbec0fd5b 1324 Packages.xz
+ d0b56240eecb9907b647ceaadcdb3a34 1303 Packages.zst
 SHA1:
- 266640abc8214a588078638cbb80670508fee95d 7091 Packages
- 5da76783bcd877ede699dc4e6ff76e68aa9831fc 1365 Packages.gz
- e5bdabe5c935e38b12b4bda365fd5abcb7babdc4 1634 Packages.bz2
- af19bb643d122ece113c24ab213e8ada738bdbe3 1300 Packages.xz
- 71dc8cab932d77b6f84c51f920d6b16b5225046f 1283 Packages.zst
+ e6dce58b1e09e366a1fc020ae7d92c103d39d3e6 7085 Packages
+ 12adfb5e32354f22a31813bf02cb2356ccbd6589 1378 Packages.gz
+ 63b828dcc8b017fd29591370747dc5db4cb10c83 1627 Packages.bz2
+ 0e28dbd0767f8f4198c418210a5e97015bb6ebfb 1324 Packages.xz
+ 8d5b937dfd5c203b7ea8f9a7e4baa8f3d6972d74 1303 Packages.zst
 SHA256:
- 5f23ed5fa1fcd80aca70d4c177f5f81e12c6094a3a8726ddcfc7e47d673a9098 7091 Packages
- e2ba5d79377ab77f834144fab430aeec43588dea5b6fcf7afd88d72f464989fd 1365 Packages.gz
- a8ce3232ad073819b045767194268e7f2da015d4d2288b83967e2d7c58c5e2f3 1634 Packages.bz2
- 7c86a6bcdc23c44abf3499b4e3931d3eb58c313e4d1ed0484790ab5f14590c6e 1300 Packages.xz
- fa1c90ad5db467f0cd6bfccff7d5389bd3b6f0c6bacc57104eb4d6585e3d6881 1283 Packages.zst
+ 5356c379a5f13e4a03e37c51e6fed96688cf1a06b0f4571e1d29dfacdc566026 7085 Packages
+ ffeabc7e0da1c4c36671774ee7c07107fe96e7498c34fdac1da846e4fccedecc 1378 Packages.gz
+ bc439b3c9150d24d11b71ff58f5e94b3ec50205d60c1baf7c97487a265fd4227 1627 Packages.bz2
+ 404427acc8982d1a42b0282771c371e2486e175d0a4b9a339425bcfc8e042110 1324 Packages.xz
+ 4a26ee9418e5c8a1b750007ed27597ce9e743868a7f1ae82b471efd38d15ceb1 1303 Packages.zst

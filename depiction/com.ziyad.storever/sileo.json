@@ -1,0 +1,26 @@
+{
+ "class": "DepictionStackView",
+ "minVersion": "0.1",
+ "tintColor": "#1FA3C4",
+ "headerImage": "https://vip1z.github.io/aws-repo/assets/header.png",
+ "views": [
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه 16.3، عشان تنزل وتتحدّث التطبيقات اللي تطلب 16.3 (مثل إنستقرام) رسمي من المتجر. ما يغيّر شي على الأجهزة اللي مو على 16.2. بعد التثبيت سوّ Userspace Reboot.",
+   "useSpacing": true
+  },
+  {
+   "class": "DepictionSeparatorView"
+  },
+  {
+   "class": "DepictionTableTextView",
+   "title": "النسخة",
+   "text": "1.0.0"
+  },
+  {
+   "class": "DepictionTableTextView",
+   "title": "المطوّر",
+   "text": "Ziyad"
+  }
+ ]
+}

@@ -168,3 +168,57 @@ Size: 313000
 MD5sum: 7f615fac5f3bcbf93394e611ff5b6490
 SHA1: ecdefffa7c4c52c3b90a9cddac7f723848bad61b
 SHA256: 79281d60cfe38beb06b06ae6606a0b8a9a2358eb26d2acda0e77927a660888da
+
+Package: com.ziyad.storever
+Name: AWS Store 16.3
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه 16.3، عشان تنزل وتتحدّث التطبيقات اللي تطلب 16.3 (مثل إنستقرام) رسمي من المتجر. ما يغيّر شي على الأجهزة اللي مو على 16.2. بعد التثبيت سوّ Userspace Reboot.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 16.2), mobilesubstrate
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/com.ziyad.storever/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.storever_1.0.0_iphoneos-arm-rootful.deb
+Size: 8124
+MD5sum: f5faea3fa03a6aff04edd30d825e5f9f
+SHA1: b5be4278141c0faf3181056ae24560ef1b4d4b4e
+SHA256: dba2a950954ee671ec4beecd2551365857d3e00a5d79f5891be90f1a5e5d348f
+
+Package: com.ziyad.storever
+Name: AWS Store 16.3
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه 16.3، عشان تنزل وتتحدّث التطبيقات اللي تطلب 16.3 (مثل إنستقرام) رسمي من المتجر. ما يغيّر شي على الأجهزة اللي مو على 16.2. بعد التثبيت سوّ Userspace Reboot.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 16.2), mobilesubstrate
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/com.ziyad.storever/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.storever_1.0.0_iphoneos-arm64-rootless.deb
+Size: 8160
+MD5sum: 58806c94c196df325de9e2422d13a951
+SHA1: 0cad29781d75a8a14ed387ed25d74f8cd0bc2efe
+SHA256: 5ca6d1c91f33626f58a3a5c81c97e144528540e25114a5715d120ee3ae7476e3
+
+Package: com.ziyad.storever
+Name: AWS Store 16.3
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه 16.3، عشان تنزل وتتحدّث التطبيقات اللي تطلب 16.3 (مثل إنستقرام) رسمي من المتجر. ما يغيّر شي على الأجهزة اللي مو على 16.2. بعد التثبيت سوّ Userspace Reboot.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 16.2), mobilesubstrate
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/com.ziyad.storever/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.storever_1.0.0_iphoneos-arm64e-roothide.deb
+Size: 8128
+MD5sum: f2ae23a2e130e1463207a9327647a07b
+SHA1: 43921eb177e02a2d8cacbcc78643accd1acd2cce
+SHA256: c703dfe57dcd76cd1f72e2028d6ec862f02570f6ed085838ab6f2bb89e72d4ff

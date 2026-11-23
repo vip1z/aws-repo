@@ -170,10 +170,10 @@ SHA1: ecdefffa7c4c52c3b90a9cddac7f723848bad61b
 SHA256: 79281d60cfe38beb06b06ae6606a0b8a9a2358eb26d2acda0e77927a660888da
 
 Package: com.ziyad.storever
-Name: AWS Store 16.3
-Version: 1.0.1
+Name: AWS Store iOS 16
+Version: 1.1.0
 Architecture: iphoneos-arm
-Description: يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه 16.3، عشان تنزل وتتحدّث التطبيقات اللي تطلب 16.3 (مثل إنستقرام) رسمي من المتجر. ما يغيّر شي على الأجهزة اللي مو على 16.2. بعد التثبيت سوّ Userspace Reboot.
+Description: يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه على آخر إصدار من 16 (16.7.16)، عشان تنزل وتتحدّث التطبيقات اللي تطلب أي إصدار من 16 رسمي من المتجر. التطبيقات نفسها تظل تشوف إصدارك الحقيقي. ما يغيّر شي على الأجهزة اللي مو على 16.2.
 Maintainer: Ziyad
 Author: Ziyad
 Section: Tweaks
@@ -181,17 +181,17 @@ Depends: firmware (>= 16.2), mobilesubstrate
 Icon: https://vip1z.github.io/aws-repo/assets/icon.png
 SileoDepiction: https://vip1z.github.io/aws-repo/depiction/com.ziyad.storever/sileo.json
 Header: https://vip1z.github.io/aws-repo/assets/header.png
-Filename: ./debs/com.ziyad.storever_1.0.1_iphoneos-arm-rootful.deb
-Size: 9224
-MD5sum: d16fc94c6afafe2c0b21199189176473
-SHA1: 5103eb317f98cca696fa9a134cfdfd498d682f62
-SHA256: f372b1ecd4f6d33f4e4dc5cd2f0792c7f705a313174416c6acbe563e80f8fe6d
+Filename: ./debs/com.ziyad.storever_1.1.0_iphoneos-arm-rootful.deb
+Size: 9268
+MD5sum: 49ede591f4bd2d5f8558b3a1cc600cff
+SHA1: 8f8eeffa933b7b48ad189137b49b00ba290f00ea
+SHA256: f4a5fe2d54365c3fa9d1fe42212ee6eea86868bbd284b6c0a2a5da6f21a25f05
 
 Package: com.ziyad.storever
-Name: AWS Store 16.3
-Version: 1.0.1
+Name: AWS Store iOS 16
+Version: 1.1.0
 Architecture: iphoneos-arm64
-Description: يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه 16.3، عشان تنزل وتتحدّث التطبيقات اللي تطلب 16.3 (مثل إنستقرام) رسمي من المتجر. ما يغيّر شي على الأجهزة اللي مو على 16.2. بعد التثبيت سوّ Userspace Reboot.
+Description: يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه على آخر إصدار من 16 (16.7.16)، عشان تنزل وتتحدّث التطبيقات اللي تطلب أي إصدار من 16 رسمي من المتجر. التطبيقات نفسها تظل تشوف إصدارك الحقيقي. ما يغيّر شي على الأجهزة اللي مو على 16.2.
 Maintainer: Ziyad
 Author: Ziyad
 Section: Tweaks
@@ -199,17 +199,17 @@ Depends: firmware (>= 16.2), mobilesubstrate
 Icon: https://vip1z.github.io/aws-repo/assets/icon.png
 SileoDepiction: https://vip1z.github.io/aws-repo/depiction/com.ziyad.storever/sileo.json
 Header: https://vip1z.github.io/aws-repo/assets/header.png
-Filename: ./debs/com.ziyad.storever_1.0.1_iphoneos-arm64-rootless.deb
-Size: 9256
-MD5sum: 41ca5ec46febdcf6c5e018c14d069a7d
-SHA1: b542b9dedac847d5529e03acb32d10050762cd4f
-SHA256: e3873b49a5e0c8c873873b9a2235fe233a2edb15189b58d08302160d406b79b8
+Filename: ./debs/com.ziyad.storever_1.1.0_iphoneos-arm64-rootless.deb
+Size: 9288
+MD5sum: a355c0c7a82000728b2acd79464db707
+SHA1: e4023f29cd119fb19206906e260d5f54e45f67bb
+SHA256: 7dd4285f247de98d39a2c3fa055ab3179e35dc60c9404ce02370e119690fcf71
 
 Package: com.ziyad.storever
-Name: AWS Store 16.3
-Version: 1.0.1
+Name: AWS Store iOS 16
+Version: 1.1.0
 Architecture: iphoneos-arm64e
-Description: يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه 16.3، عشان تنزل وتتحدّث التطبيقات اللي تطلب 16.3 (مثل إنستقرام) رسمي من المتجر. ما يغيّر شي على الأجهزة اللي مو على 16.2. بعد التثبيت سوّ Userspace Reboot.
+Description: يخلّي متجر آبل يعامل جهاز iOS 16.2 كأنه على آخر إصدار من 16 (16.7.16)، عشان تنزل وتتحدّث التطبيقات اللي تطلب أي إصدار من 16 رسمي من المتجر. التطبيقات نفسها تظل تشوف إصدارك الحقيقي. ما يغيّر شي على الأجهزة اللي مو على 16.2.
 Maintainer: Ziyad
 Author: Ziyad
 Section: Tweaks
@@ -217,8 +217,8 @@ Depends: firmware (>= 16.2), mobilesubstrate
 Icon: https://vip1z.github.io/aws-repo/assets/icon.png
 SileoDepiction: https://vip1z.github.io/aws-repo/depiction/com.ziyad.storever/sileo.json
 Header: https://vip1z.github.io/aws-repo/assets/header.png
-Filename: ./debs/com.ziyad.storever_1.0.1_iphoneos-arm64e-roothide.deb
-Size: 9224
-MD5sum: c5a94e02e91d5bb6c584441f400a7a0d
-SHA1: 2a4511e33ea8ab1783889eec4031b91fc6a6a511
-SHA256: 1241511a178971693f33fb4058911e5a88209a3bb2349033777ea31940561610
+Filename: ./debs/com.ziyad.storever_1.1.0_iphoneos-arm64e-roothide.deb
+Size: 9276
+MD5sum: ce6171e2f4f0c8caaca272304f389fea
+SHA1: c78f2586f63212f203e770c364987a27b7aec94b
+SHA256: ea7bc27b75fac23260885b6648541cc45b6fdc583155f4db64b6a8b30f6ff924

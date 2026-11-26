@@ -263,6 +263,25 @@ MD5sum: bd10ae69c729598e470fc0c8a52f2690
 SHA1: 4c7ab9108dbd0c5a686dc2ce6df9b455e0589029
 SHA256: 2f8c23b6a7c20bd64612581eed31eaf033271f28a7b97889f97dc92e47dfd3db
 
+Package: dev.ziyad.snapz
+Name: SnapZ
+Description: إضافات سناب لـ RootHide، مع خيار لتعطيل السحب من الدردشات إلى الخريطة وميزات حفظ الوسائط.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 16.2), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.5.7
+Installed-Size: 2092
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/dev.ziyad.snapz/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/dev.ziyad.snapz_0.5.7_iphoneos-arm64e-roothide.deb
+Size: 1286096
+MD5sum: 058fc45e19704a449a1511252036aa67
+SHA1: eb194f92533deede60117d3aa8bedbca07b063ab
+SHA256: 2200c144f1f2ec2b13a572b711677a9885d3f35ad2542ecb780fa5e1bc6c680e
+
 Package: re.frida.server
 Priority: optional
 Section: Development

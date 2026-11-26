@@ -1,0 +1,26 @@
+{
+ "class": "DepictionStackView",
+ "minVersion": "0.1",
+ "tintColor": "#1FA3C4",
+ "headerImage": "https://vip1z.github.io/aws-repo/assets/header.png",
+ "views": [
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "Arabic RootHide menu with seven searchable item catalogs with independent radar ranges, multi-select photo filters, grass-density control, compact anchored images and match-state gating.",
+   "useSpacing": true
+  },
+  {
+   "class": "DepictionSeparatorView"
+  },
+  {
+   "class": "DepictionTableTextView",
+   "title": "النسخة",
+   "text": "1.18.3"
+  },
+  {
+   "class": "DepictionTableTextView",
+   "title": "المطوّر",
+   "text": "Ziyad"
+  }
+ ]
+}

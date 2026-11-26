@@ -169,6 +169,27 @@ MD5sum: 29231d294652747cc70d08c33dba72ac
 SHA1: e9cdbb2a56caff2e130302b99bbd6c97a430150d
 SHA256: 9ed9c601bc3f9f8e20d660201b62523d5a3c27f2de5d1643db3900cd4d2867d9
 
+Package: com.ziyad.pubgmenu
+Name: ZIYAD PUBG Menu
+Version: 1.18.3
+Architecture: iphoneos-arm64e
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.2)
+Description: Arabic RootHide menu with seven searchable item catalogs with independent radar ranges, multi-select photo filters, grass-density control, compact anchored images and match-state gating.
+RootHide: true
+Tag: role::tweak, roothide::compatible
+Installed-Size: 12605
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/com.ziyad.pubgmenu/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/com.ziyad.pubgmenu_1.18.3_iphoneos-arm64e-roothide.deb
+Size: 11678702
+MD5sum: 96acdc47c76e776ecba38008d6ecfdde
+SHA1: 21e9d7c3a4db2ad19a84a0a517fe08574e9357a1
+SHA256: e5aa2c33ed1ae978730eef82732e24beeeace400c96d3989c0a1eef3b46a3180
+
 Package: com.ziyad.storever
 Name: AWS Store iOS 16
 Version: 1.1.0

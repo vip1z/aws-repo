@@ -262,3 +262,25 @@ Size: 1285728
 MD5sum: bd10ae69c729598e470fc0c8a52f2690
 SHA1: 4c7ab9108dbd0c5a686dc2ce6df9b455e0589029
 SHA256: 2f8c23b6a7c20bd64612581eed31eaf033271f28a7b97889f97dc92e47dfd3db
+
+Package: re.frida.server
+Priority: optional
+Section: Development
+Installed-Size: 78484
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Architecture: iphoneos-arm64e
+Version: 17.27.4
+Pre-Depends: rootless-compat (>= 0.9)
+Conflicts: re.frida.server64
+Description: Observe and reprogram running programs.
+Name: Frida
+Homepage: https://frida.re/
+Author: Frida Developers <oleavr@nowsecure.com>
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/re.frida.server/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/re.frida.server_17.27.4_iphoneos-arm64e-roothide.deb
+Size: 33197158
+MD5sum: 199baadc79d4e8e056c1c9a337b25243
+SHA1: 3105d86267ce1dc7f5648eb1054ead0d63e88bf5
+SHA256: 29db4e8104d3d050dffc2953259b528192ff78b0e87bed036136d251ec300b71

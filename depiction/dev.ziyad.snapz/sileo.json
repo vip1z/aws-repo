@@ -6,7 +6,7 @@
  "views": [
   {
    "class": "DepictionMarkdownView",
-   "markdown": "إضافات سناب لـ RootHide، مع خيار لتعطيل السحب من الدردشات إلى الخريطة وميزات حفظ الوسائط.",
+   "markdown": "إضافات سناب لـ RootHide مع زر اختياري لتسجيل مشاهدة السنابة الحالية في القصة.",
    "useSpacing": true
   },
   {
@@ -15,7 +15,7 @@
   {
    "class": "DepictionTableTextView",
    "title": "النسخة",
-   "text": "0.5.7"
+   "text": "0.6.0"
   },
   {
    "class": "DepictionTableTextView",

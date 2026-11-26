@@ -282,6 +282,25 @@ MD5sum: 058fc45e19704a449a1511252036aa67
 SHA1: eb194f92533deede60117d3aa8bedbca07b063ab
 SHA256: 2200c144f1f2ec2b13a572b711677a9885d3f35ad2542ecb780fa5e1bc6c680e
 
+Package: dev.ziyad.snapz
+Name: SnapZ
+Description: إضافات سناب لـ RootHide مع زر اختياري لتسجيل مشاهدة السنابة الحالية في القصة.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 16.2), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.6.0
+Installed-Size: 2092
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/dev.ziyad.snapz/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/dev.ziyad.snapz_0.6.0_iphoneos-arm64e-roothide.deb
+Size: 1288572
+MD5sum: 4faf2e8785e4b718c0113dbd3ca196e2
+SHA1: 4ca6dcc47f289b46a2dd9296f0848bd16aab0732
+SHA256: 3530f93ceebcde12501653b2f5adb5d2855eeef5e4775dd8e594530bc884b6c5
+
 Package: re.frida.server
 Priority: optional
 Section: Development

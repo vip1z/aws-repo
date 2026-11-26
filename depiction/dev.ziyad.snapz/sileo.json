@@ -1,0 +1,26 @@
+{
+ "class": "DepictionStackView",
+ "minVersion": "0.1",
+ "tintColor": "#1FA3C4",
+ "headerImage": "https://vip1z.github.io/aws-repo/assets/header.png",
+ "views": [
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "إضافات تجريبية لسناب 14.33.1.0 و14.33.0.57، مجرّبة على iOS 16.2 مع RootHide. الإعدادات بالضغط المطول على الثلاث نقاط في الدردشات؛ بعض الميزات قيد التطوير.",
+   "useSpacing": true
+  },
+  {
+   "class": "DepictionSeparatorView"
+  },
+  {
+   "class": "DepictionTableTextView",
+   "title": "النسخة",
+   "text": "0.5.6"
+  },
+  {
+   "class": "DepictionTableTextView",
+   "title": "المطوّر",
+   "text": "Ziyad"
+  }
+ ]
+}

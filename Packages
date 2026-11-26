@@ -222,3 +222,22 @@ Size: 9276
 MD5sum: ce6171e2f4f0c8caaca272304f389fea
 SHA1: c78f2586f63212f203e770c364987a27b7aec94b
 SHA256: ea7bc27b75fac23260885b6648541cc45b6fdc583155f4db64b6a8b30f6ff924
+
+Package: dev.ziyad.snapz
+Name: SnapZ
+Description: إضافات تجريبية لسناب 14.33.1.0 و14.33.0.57، مجرّبة على iOS 16.2 مع RootHide. الإعدادات بالضغط المطول على الثلاث نقاط في الدردشات؛ بعض الميزات قيد التطوير.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 16.2), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.5.6
+Installed-Size: 2092
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/dev.ziyad.snapz/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/dev.ziyad.snapz_0.5.6_iphoneos-arm64e-roothide.deb
+Size: 1285728
+MD5sum: bd10ae69c729598e470fc0c8a52f2690
+SHA1: 4c7ab9108dbd0c5a686dc2ce6df9b455e0589029
+SHA256: 2f8c23b6a7c20bd64612581eed31eaf033271f28a7b97889f97dc92e47dfd3db

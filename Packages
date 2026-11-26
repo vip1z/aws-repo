@@ -246,25 +246,6 @@ SHA256: ea7bc27b75fac23260885b6648541cc45b6fdc583155f4db64b6a8b30f6ff924
 
 Package: dev.ziyad.snapz
 Name: SnapZ
-Description: إضافات تجريبية لسناب 14.33.1.0 و14.33.0.57، مجرّبة على iOS 16.2 مع RootHide. الإعدادات بالضغط المطول على الثلاث نقاط في الدردشات؛ بعض الميزات قيد التطوير.
-Maintainer: Ziyad
-Author: Ziyad
-Section: Tweaks
-Depends: firmware (>= 16.2), mobilesubstrate
-Architecture: iphoneos-arm64e
-Version: 0.5.6
-Installed-Size: 2092
-Icon: https://vip1z.github.io/aws-repo/assets/icon.png
-SileoDepiction: https://vip1z.github.io/aws-repo/depiction/dev.ziyad.snapz/sileo.json
-Header: https://vip1z.github.io/aws-repo/assets/header.png
-Filename: ./debs/dev.ziyad.snapz_0.5.6_iphoneos-arm64e-roothide.deb
-Size: 1285728
-MD5sum: bd10ae69c729598e470fc0c8a52f2690
-SHA1: 4c7ab9108dbd0c5a686dc2ce6df9b455e0589029
-SHA256: 2f8c23b6a7c20bd64612581eed31eaf033271f28a7b97889f97dc92e47dfd3db
-
-Package: dev.ziyad.snapz
-Name: SnapZ
 Description: إضافات سناب لـ RootHide، مع خيار لتعطيل السحب من الدردشات إلى الخريطة وميزات حفظ الوسائط.
 Maintainer: Ziyad
 Author: Ziyad
@@ -300,6 +281,25 @@ Size: 1288572
 MD5sum: 4faf2e8785e4b718c0113dbd3ca196e2
 SHA1: 4ca6dcc47f289b46a2dd9296f0848bd16aab0732
 SHA256: 3530f93ceebcde12501653b2f5adb5d2855eeef5e4775dd8e594530bc884b6c5
+
+Package: dev.ziyad.snapz
+Name: SnapZ
+Description: إضافات سناب لـ RootHide مع زر تسجيل المشاهدة وخيار التخطي إلى السنابة التالية.
+Maintainer: Ziyad
+Author: Ziyad
+Section: Tweaks
+Depends: firmware (>= 16.2), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.6.1
+Installed-Size: 2092
+Icon: https://vip1z.github.io/aws-repo/assets/icon.png
+SileoDepiction: https://vip1z.github.io/aws-repo/depiction/dev.ziyad.snapz/sileo.json
+Header: https://vip1z.github.io/aws-repo/assets/header.png
+Filename: ./debs/dev.ziyad.snapz_0.6.1_iphoneos-arm64e-roothide.deb
+Size: 1289596
+MD5sum: e45408a35b7de4c4035894c678dab8f2
+SHA1: cd56862488b034d7800e3313ab18726ed5361357
+SHA256: 325fd7d7fd30a7b827b174d2821dba7fd1ea363f38780dcf9f9b09c7115c6c71
 
 Package: re.frida.server
 Priority: optional
